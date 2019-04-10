@@ -1,0 +1,2 @@
+zfs list
+zpool list

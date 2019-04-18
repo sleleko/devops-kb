@@ -15,3 +15,6 @@ zfs snapshot rpool/srv/src@any-text-or-int-for-identification-snapshot
 
 # create new snapshot of volume and sub volumes (recursive)
 zfs snapshot rpool/srv/src@any-text-or-int-for-identification-snapshot -r
+
+# move zfs sub volumes from one parent volume to other, with all him snapsjots if its exist
+zfs rename rpool/srv/db/subvolume rpool/srv/old/db/subvolume

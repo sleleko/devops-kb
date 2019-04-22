@@ -1,0 +1,6 @@
+# simple Dockerfile with set defined Timezone in container
+
+FROM python:3.7.2-alpine3.9
+ENV TZ="Asia/Yekaterinburg"
+RUN apt-get update && apt-get upgrade && apt-get install tzdata -y && cp /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+RUN dpkg-reconfigure -f noninteractive tzdata

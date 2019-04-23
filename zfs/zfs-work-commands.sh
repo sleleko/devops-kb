@@ -1,3 +1,9 @@
+# zfs create pool
+zpool create rpool
+
+# zfs destoy pool
+zpool destoy rpool
+
 # zfs create mount point
 zfs create -o mountpoint=/srv /rpool/srv
 

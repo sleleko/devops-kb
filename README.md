@@ -1,5 +1,5 @@
 # devops-kb - simple catalog of commands
-## [LVM](/LMV)
+## [LVM](/LVM)
 ## [backups](/backups)
 ## [Docker](/docker)
 ## [MongoDB](/mongodb)

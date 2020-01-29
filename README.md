@@ -1,4 +1,4 @@
-# devops-kb - simple catalog of commands
+# devops-kb - catalog of commands
 ## [LVM](/LVM)
 ## [backups](/backups)
 ## [Docker](/docker)

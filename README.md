@@ -1,5 +1,7 @@
 # devops-kb - simple catalog of commands
-## ZFS
-## Docker
-## Python utils
-
+## [LVM](/LMV)
+## [backups](/backups)
+## [Docker](/docker)
+## [MongoDB](/mongodb)
+## [Python3 utils](/python)
+## [ZFS](/zfs)

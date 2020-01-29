@@ -10,5 +10,8 @@ docker ps
 # show all containers on current node (runned and stopped)
 docker ps -a
 
+# filter container(s) by defined name or mask with grep util
+docker ps -a | grep container_name
+
 # show all docker images donloaded to this node
 docker images

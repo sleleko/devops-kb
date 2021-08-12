@@ -8,6 +8,9 @@ yum install mysql
 # if mysqld service was not enabled by default
 systemctl enable mysqld.service
 
+# find temp root password
+grep "A temporary password" /var/log/mysqld.log
+
 # securting mysql
 mysql_secure_installation
 

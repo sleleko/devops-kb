@@ -1,4 +1,7 @@
-# This is example of raising nginx+php7.4+mysql8 on Rhel8 or Centos
+# This is example of raising nginx+php7.4+mysql8 on Rhel7 or Centos
+
+# add official mysql8 repo 
+rpm -Uvh https://repo.mysql.com/mysql80-community-release-el7-3.noarch.rpm
 
 yum install mysql
 

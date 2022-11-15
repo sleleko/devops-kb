@@ -15,3 +15,7 @@ docker ps -a | grep container_name
 
 # show all docker images donloaded to this node
 docker images
+
+# stop docker-compose stack, delete unused data, rebuild docker-compose stack und rise up !
+# you must run this in directory where your docker-compose.yml file
+docker-compose down && docker system prune && docker-compose build && docker-compose up -d

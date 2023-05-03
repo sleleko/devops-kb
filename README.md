@@ -1,4 +1,5 @@
-* DevOPS knowleage base
+# DevOPS knowleage base
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 DevOps Knowledge Base (DevOps-KB) is a collection of resources, tools, articles, and best practices for developers and DevOps professionals. The aim of this project is to provide a convenient repository of information for those looking to deepen their knowledge and skills in the field of DevOps.

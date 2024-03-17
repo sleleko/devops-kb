@@ -10,7 +10,7 @@ curr_datetime = curr_datetime.isoformat('T')
 msg = 'On server {host} detected error'.format(host=host)
 
 # push msg log into grafana-loki
-url = 'http://host-where-loki-run:3100/loki/api/v1/push '
+url = 'http://host-where-loki-run:3100/loki/api/v1/push'
 headers = {
     'Content-type': 'application/json'
 }
